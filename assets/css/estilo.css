@@ -329,9 +329,9 @@ html{
     width: 0%;
     animation: 2s bootstrap forwards;
 }
-@keyframes bootstrap {
+@keyframes bootstrap {    /* No se ha cambiado el nombre por que en la prueba no me funcionó*/
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .github {
