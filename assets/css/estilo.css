@@ -325,11 +325,11 @@ html{
     100%{width: 85%;}
 }
 
-.skills .skill .django {
+.skills .skill .bootstrap {
     width: 0%;
-    animation: 2s django forwards;
+    animation: 2s bootstrap forwards;
 }
-@keyframes django {    /* No se ha cambiado el nombre por que en la prueba no me funcionó*/
+@keyframes bootstrap {    /* No se ha cambiado el nombre por que en la prueba no me funcionó*/
     0%{width: 0%;}
     100%{width: 65%;}
 }
