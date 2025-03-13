@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+	<title>DevCro</title>
+	<link rel="stylesheet" href="assets/css/estilo.css">
+
+</head>
+
+<body>
+	<!-- MENU DE ENCABEZADO -->
+	<div class="contenedor-header">
+		<header>
+			<div class="devcro">
+				<img src="assets/img/Logo_DevCro.png" alt="Logo_DevCro" class="Logo_DevCro">
+				<a href="assets/img/Logo_DevCro.png" target="_blank" rel="noopener noreferrer"> DevCro </a>
+			</div>
+			<nav id="nav" class="responsive">
+				<ul>
+					<li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+					<li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+					<li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+					<li><a href="#curriculum" onclick="seleccionar()">CURRÍCULUM</a></li>
+					<li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+					<li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+				</ul>
+			</nav>
+			<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+	</div>
+
+	<!-- SECCIÓN DE INICIO -->
+	<section id="inicio" class="inicio">
+		<div class="contenido-banner">
+			<div class="img">
+				<img src="assets/img/Foto_Perfil_Cro_1.jpg" alt="Imagen_Cro">
+			</div>
+			<h1> CRISTIÁN ROJAS L. </h1>
+			<br>
+			<h2> Desarrollador FULL STACK </h2>
+			<h2> Py  ||  RoR  ||  Data Analyst</h2>
+			<div class="redes">
+				<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://www.linkedin.com/in/cristián-rojas-lópez"><i class="fa-brands fa-linkedin-in"></i></a>
+				<a href="#"><i class="fa-brands fa-github"></i></a>
+				<a href="https://www.instagram.com/crojaslop"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCIÓN SOBRE MÍ  -->
+	<section id="sobremi" class="sobremi">
+		<div class="contenido-seccion">
+			<h2> Sobre Mí </h2>
+			<!-- <p><span> Hola, Mi nombre es Cristián, </span> Mi formación Profesional fué inicialmente en el rubro de la Construcción adquiriendo basta experiencia en métodologias de trabajo, Investigación y Desarrollo de Productos, además de técnicas en la Mejora Contínua.  Llevado a cabo en distintas faenas y proyectos mediana y gran escala.
+			<br> Soy una persona intuitiva y entusiasta, me gusta formar equipos, aporto creatividad y definición para lograr objetivos.
+			<br> Puedo Complementar que, el énfasis, la constancia y la responsabilidad, serán siempre una constante en mis objetivos laborales y el crecimiento y desarrollo personal.
+			<br> En estos tiempos llevo mi día a día, entre familia, estudio y desarrollo de proyectos.</p> -->
+
+			<p><span> Hola, Mi nombre es Cristián, </span> Mi trayectoria profesional comenzó en el sector de la construcción, donde adquirí una amplia experiencia en metodologías de trabajo, investigación y desarrollo de productos, además de aplicar técnicas de mejora continua en proyectos de mediana y gran escala. Este entorno me permitió desarrollar habilidades clave como la planificación estratégica, la resolución de problemas y el trabajo en equipo.
+			<br> Con el tiempo, mi curiosidad y pasión por la innovación me llevaron a explorar el mundo del desarrollo de software. En esta transición he comprendido que muchas de las habilidades adquiridas en Industrias y en la Construcción, como el análisis de procesos, la optimización de recursos y la gestión de proyectos, son igualmente valiosas en la tecnología.
+			<br> Me considero una persona intuitiva y entusiasta, me motiva formar equipos de trabajo, aportar creatividad y visión para alcanzar objetivos. La perseverancia, la constancia y la responsabilidad son pilares en mi crecimiento tanto profesional como personal.
+			<br> Hoy en día, combino mi experiencia previa con nuevas herramientas y conocimientos en desarrollo de software, creando soluciones eficientes y funcionales.
+
+			</p>
+
+			<div class="fila">
+				<!-- Datos Personales -->
+				<div class="col">
+					<h3> Datos Personales </h3>
+					<ul>
+						<li>
+							<strong> Dirección </strong>
+							Lo Barnechea, Santiago de Chile.
+						</li>
+						<li>
+							<strong>Teléfono</strong>
+							+56 9 40485570
+						</li>
+						<li>
+							<strong> Email</strong>
+							<a href="mailto:crojaslo@outlook.com"></a>
+							crojaslo@outlook.com
+						</li>
+						<li>
+							<strong> Sitio Web </strong>
+							https://www.crojaslo.cl
+						</li>
+						<li>
+							<strong> Cargo </strong>
+							<span> DEVELOPER & MARKETING </span>
+						</li>
+						<li>
+							<strong> Empresa </strong>
+							Pandemian Store | Doña Mantequilla Spa.
+						</li>
+					</ul>
+				</div>
+
+				<!-- Intereses -->
+				<div class="col">
+					<h3> Intereses </h3>
+					<div class="contenedor-intereses">
+						<div class="interes">
+							<i class="fa-brands fa-dev"></i>
+							<span> Desarrollo </span>
+							<span> Software </span>
+						</div>
+						<div class="interes">
+							<i class="fi fi-rs-microchip-ai"></i>
+							<span> Tecnología </span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-headphones"></i>
+							<span> Música </span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-code"></i>
+							<span> Code </span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-person-hiking"></i>
+							<span> Trekking </span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-person-biking"></i>
+							<span>Bicicleta </span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-plane"></i>
+							<span> Viajar </span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-paw"></i>
+							<span> Pet's </span>
+							<span> Friend </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button onclick="window.location.href='assets/documentos/cv_cristian_rojas_lopez_dev_2024.pdf'">
+				Descargar CV <i class="fa-solid fa-download"></i>
+				<span class="overlay"></span>
+				<!--<a href="assets/documentos/cv_cristian_rojas_lopez_dev_2024.pdf"><span class="overlay"></span></a>-->
+			</button>
+		</div>
+	</section>
+
+	<!-- SECCIÓN SKILLS -->
+	<section class="skills" id="skills">
+		<div class="contenido-seccion">
+			<h2> Skills</h2>
+			<div class="fila">
+				<!-- Technical Skills -->
+				<div Class="col">
+					<h3>Technical Skills</h3>
+					<div class="skill">
+						<span> Python </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>70%</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span> Ruby on Rails</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>65%</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span> HTML & CSS </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>85%</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span> BOOTSTRAP </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>90%</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span> GIT-HUB </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>75%</strong></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Professional Skills -->
+				<div Class="col">
+					<h3>Professional Skills</h3>
+					<div class="skill">
+						<span> Trabajo en Equipo </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>95%</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span> Creatividad </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>95%</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span> Dedicación </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>120%</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span> Colaboración </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>95%</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span> Project Management </span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span><strong>70%</strong></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCIÓN CURRÍCULUM -->
+	<section id="curriculum" class="curriculum">
+		<div class="contenido-seccion">
+			<h2>Currículum</h2>
+			<div class="fila">
+				<!-- EDUCACIÓN ----------------------------------------------------------->
+				<div class="col izquierda">
+					<h3>Educación</h3>
+					<div class="item izq">
+						<h4>Desarrollador Full Stack Python</h4>
+						<span class="casa">Talento Digital - Praxis</span>
+						<span class="fecha">Bootcamp - 2024</span>
+						<p>>>> BACKEND - FRONTEND </p>
+						<p>>>> Django, HTML, CSS, PostgreSQL</p>
+						<p>>>> Desarrollo de Software, App y Sistemas Web, con lenguaje de programación</p>
+						<div class="conectoriz">
+							<div class="circuloiz"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<span class="casa">UPLA</span>
+						<br>
+						<h4>Metodologías Ágiles y Enfoques Lean</h4>
+						<p>GESTIÓN DE PROYECTOS.</p>
+						<span class="fecha">2024</span>
+						<h4>Design Thinking</h4>
+						<p>METODOLOGÍA Y DESARROLLO.</p>
+						<span class="fecha">2024</span>
+						<br>
+						<div class="conectoriz">
+							<div class="circuloiz"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<h4>Desarrollador Full Stack Ruby On Rails</h4>
+						<span class="casa">Talento Digital - Inforcap</span>
+						<span class="fecha">BootCamp - 2023</span>
+						<p>>>> BACKEND - FRONTEND </p>
+						<p>>>> Django, HTML, CSS, PostgreSQL</p>
+						<p>>>> Desarrollo de Software, App y Sistemas Web, con lenguaje de programación Ruby On Rails.</p>
+						<div class="conectoriz">
+							<div class="circuloiz"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<span class="casa">INACAP</span>
+						<br>
+						<h4>Excel Avanzado</h4>
+						<p>OPTIMIZACIÓN Y ANÁLISIS DE DATOS.</p>
+						<span class="fecha">2021</span>
+						<h4>Excel Intermedio</h4>
+						<p>MANEJO DE DATOS, FILTROS Y TABLAS.</p>
+						<span class="fecha">2020</span>
+						<br>
+						<div class="conectoriz">
+							<div class="circuloiz"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<span class="casa">Universidad Católica de Chile</span>
+						<br>
+						<h4>Diplomado en Gestión de Compras Y Adquisiciones.</h4>
+						<span class="fecha"> Campus Alameda - 2012</span>
+						<br>
+						<h4>Diplomado AutoCAD</h4>
+						<span class="fecha">Campus Lo Contador - 2011</span>
+						<div class="conectoriz">
+							<div class="circuloiz"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<h4 class="casa">DUOC UC</h4>
+						<h4>Técnico en Construcción</h4>
+						<span class="fecha">2003 - 2007.</span>
+						<span class="fecha">Centro Tecnológico de la Construcción, Stgo.</span>
+						<p></p>
+						<div class="conectoriz">
+							<div class="circuloiz"></div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- EXPERIENCIAL LABORAL --------------------------------------------------->
+				<div class="col derecha">
+					<h3>Experiencia Laboral</h3>
+					<div class="item der">
+						<h4>Project Management</h4>
+						<span class="casa">Bici-APP - Scrum Freelance</span>
+						<span class="fecha">2023</span>
+						<p>>>>  Experiencia de trabajo Scrum</p>
+						<p>>>>  Gestión para Desarrollo de APP</p>
+						<p>>>>  Comunicación Efectiva</p>
+						<p>>>>  Liderazgo</p>
+						<div class="conectorde">
+							<div class="circulode"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Jefe de Terreno</h4>
+						<span class="casa">CONSTRUCTORA G6 S.A.</span>
+						<span class="fecha">2022 - 2023</span>
+						<p><li> Gestión de faena en Terreno. </li></p>
+						<p><li> Liderazgo y Creación Equipo. </li></p>
+						<p><li> Supervisión de Trabajos. </li></p>
+						<p><li> Mejora Contínua. </li></p>
+						<p><li> Comunicación Efectiva. </li></p>
+						<div class="conectorde">
+							<div class="circulode"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Adquisiciones Area Minera</h4>
+						<span class="casa">TEHMCO S.A.</span>
+						<span class="fecha">2011 - 2013</span>
+						<span> <li> Compras vínculadas a Proyectos Mineros.</li></span>
+						<span> <li> Desarrollo de Productos.</li></span>
+						<span> <li> Estrecho contacto con clientes.</li></span>
+						<span> <li> Gestión de Proveedores.</li></span>
+						<span> <li> Comunicación Efectiva.</li></span>
+						<div class="conectorde">
+							<div class="circulode"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Proyectista Piping HDPE</h4>
+						<span class="casa">TEHMCO S.A.</span>
+						<span class="fecha">2009 - 2013</span>
+						<span><li> Proyectos de Transporte de Fluídos Mineros. </li></span>
+						<span><li> Dibujo de Planos. </li></span>
+						<span><li> Trabajo en Equipo Multidiciplinario. </li></span>
+						<span><li> Metodología y Normativa. </li></span>
+						<span><li> Gestión de Documentos. </li></span>
+						<div class="conectorde">
+							<div class="circulode"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Supervisor de Obra</h4>
+						<span class="casa">HORMIGONES KT S.A.</span>
+						<span class="fecha">2008 - 2009</span>
+						<p><li> Supervisión de Trabajos. </li></p>
+						<p><li> Liderazgo y Creación Equipos. </li></p>
+						<p><li> Gestión de Faena. </li></p>
+						<p><li> Programación según Carta Gantt</li></p>
+						<p><li> Comunicación Efectiva. </li></p>
+						<div class="conectorde">
+							<div class="circulode"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Laboratorista</h4>
+						<span class="casa">PREMIX S.A.</span>
+						<span class="fecha">2004 - 2007</span>
+						<p><li> Departamento de Desarrollo e Investigación. </li></p>
+						<p><li> Metodología y Normativa. </li></p>
+						<p><li> Control y Analisís de Productos. </li></p>
+						<p><li> Trabajo en Equipo. </li></p>
+						<p><li> Informes y Gestión de Documentación. </li></p>
+
+						<div class="conectorde">
+							<div class="circulode"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCIÓN PORTFOLIO -->
+	<section id="portfolio" class="portfolio">
+		<div class="contenido-seccion">
+			<h2> PORTFOLIO</h2>
+			<div class="galeria">
+				<div class="proyecto">
+					<img src="assets/img/PF_Img/Doña_mantequilla_PF/Logo_23-02-25_(2)_3%.png" alt="Logo_DM">
+					<div class="overlay">
+						<h3>Doña Mantequilla</h3>
+						<p>Regaloneamos a tus Mascotas!!</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="assets/img/PF_Img/Doña_mantequilla_PF/Publicidad_Local_Rev-4.png" alt="Doña_Mantequilla">
+					<div class="overlay">
+						<h3>Doña Mantequilla</h3>
+						<p>Desarrollo Web & Marketing</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img  href="#" src="assets/img/PF_Img/Doña_mantequilla_PF/2_80%.png" alt="onlyflans2">
+					<a href="https://youtube.com/shorts/cFoD2YsmkWg?si=d7qRjkrhn8LRMz3y"></a>
+					<div class="overlay">
+						<h3>OnlyFlans</h3>
+						<p>Proyecto Python-Django</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="assets/img/PF_Img/Onlyflans_PF/OnlyFlans.png" alt="onlylans">
+					<div class="overlay">
+						<h3>OnlyFlans</h3>
+						<p>Proyecto Python-Django</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="assets/img/PF_Img/Onlyflans_PF/OnlyFlans_1.png" alt="onlylans1">
+					<div class="overlay">
+						<h3>OnlyFlans</h3>
+						<p>Proyecto Python-Django</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img  href="#" src="assets/img/PF_Img/Onlyflans_PF/OnlyFlans_2.png" alt="onlyflans2">
+					<div class="overlay">
+						<h3>OnlyFlans</h3>
+						<p>Proyecto Python-Django</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCIÓN CONTACTO -->
+	<section id="contacto" class="contacto">
+		<div class="contenido-seccion">
+			<h2>Contacto</h2>
+			<div class="fila">
+				<!-- Formulario -->
+				<div class="col">
+					<input type="text" placeholder="Tú Nombre">
+					<input type="text" placeholder="Número telefónico">
+					<input type="text" placeholder="Dirección de Correo">
+					<input type="text" placeholder="Tema">
+					<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+					<button>
+						Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+						<span class="overlay"></span>
+					</button>
+				</div>
+				<!-- Mapa -->
+				<div class="col">
+					<img src="assets/img/lo_barnechea_2.png" alt="imagen">
+					<div class="info">
+						<ul>
+							<li>
+								<i class="fa-solid fa-mobile-screen"></i>
+								+56 9 40485570
+							</li>
+							<li>
+								<i class="fa-solid fa-envelope"></i>
+								<a href="mailto:crojaslo@outlook.com">
+								crojaslo@outlook.com
+								</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-location-dot"></i>
+								<a href="https://maps.app.goo.gl/JvmpwLLQXVV1FATGA">
+								Lo Barnechea, Santiago de Chile.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCIÓN FOOTER -->
+	<footer>
+		<a href="#inicio" class="arriba">
+			<i class="fa-solid fa-angles-up"></i>
+		</a>
+		<div class="redes">
+			<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+			<a href="https://www.linkedin.com/in/cristián-rojas-lópez"><i class="fa-brands fa-linkedin-in"></i></a>
+			<a href="#"><i class="fa-brands fa-github"></i></a>
+			<a href="#"><i class="fa-brands fa-instagram"></i></a>
+		</div>
+	</footer>
+
+	<script src="assets/js/portfolio.js"></script>
+
+</body>
+</html>
